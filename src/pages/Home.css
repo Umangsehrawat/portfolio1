@@ -1,38 +1,35 @@
 .home-container {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f8f9fa; /* Light background color */
-    min-height: 100vh; /* Ensures the container takes full viewport height */
+    background-color: #f8f9fa;
+    min-height: 100vh;
   }
   
-  /* Styling for the welcome message */
   .welcome-message {
-    font-size: 2.5em; /* Large font size */
+    font-size: 2.5em; 
     font-weight: bold;
-    color: #333; /* Dark text color */
+    color: #333; 
     margin-bottom: 20px;
   }
   
-  /* Styling for the mission statement */
   .mission-statement {
-    font-size: 1.2em; /* Medium font size */
-    color: #555; /* Slightly lighter text color */
+    font-size: 1.2em; 
+    color: #555; 
     margin-bottom: 40px;
-    line-height: 1.5; /* Improves readability */
-    width: 60%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the mission statement */
+    line-height: 1.5;
+    width: 60%;
+    margin: 0 auto; 
   }
   
-  /* Styling for the buttons */
   .redirect-buttons {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Space between buttons */
+    gap: 15px; 
   }
   
   .redirect-button {
     padding: 10px 20px;
-    background-color: #007bff; /* Button background color */
+    background-color: #007bff; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -40,11 +37,10 @@
   }
   
   .redirect-button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-    transform: translateY(-2px); /* Slight lifting effect */
+    background-color: #0056b3; 
+    transform: translateY(-2px);
   }
   
-  /* Responsive styling for smaller screens */
   @media (max-width: 768px) {
     .welcome-message {
       font-size: 2em;
@@ -52,10 +48,10 @@
   
     .mission-statement {
       font-size: 1em;
-      width: 80%; /* Make the mission statement take more width */
+      width: 80%; 
     }
   
     .redirect-button {
-      padding: 8px 15px; /* Adjust button padding */
+      padding: 8px 15px; 
     }
   }

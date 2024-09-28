@@ -8,15 +8,15 @@
   }
   
   .profile-image {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px; 
     height: auto;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%; 
   }
   
   .about-me-text {
     font-size: 18px;
     margin: 20px auto;
-    width: 60%; /* Adjust the width as needed */
+    width: 60%;
     line-height: 1.5;
     color: #333;
   }

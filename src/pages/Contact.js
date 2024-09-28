@@ -22,7 +22,7 @@ const Contact = () => {
     e.preventDefault();
     console.log('Form data submitted:', formData);
     alert('Thank you for your message! Redirecting to Home Page.');
-    navigate('/'); // Redirects to Home Page
+    navigate('/'); 
   };
 
   return (

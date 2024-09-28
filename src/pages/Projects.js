@@ -1,7 +1,6 @@
 import React from 'react';
-import './Projects.css'; // Import CSS file for styling
+import './Projects.css'; 
 
-// Import your project images
 import photo from '../assets/photo.png';
 import hobyy from '../assets/hobby.png';
 import form from '../assets/form.png';
@@ -12,7 +11,6 @@ const Projects = () => {
       <h1>My Projects</h1>
       
       <div className="project-container">
-        {/* Project 1 */}
         <div className="project-card">
           <img src={photo} alt="Project 1" className="project-image" />
           <div className="project-info">
@@ -33,7 +31,6 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Project 2 */}
         <div className="project-card">
           <img src={hobyy} alt="Project 2" className="project-image" />
           <div className="project-info">
@@ -55,7 +52,6 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Project 3 */}
         <div className="project-card">
           <img src={form} alt="Project 3" className="project-image" />
           <div className="project-info">
